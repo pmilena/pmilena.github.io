@@ -1,0 +1,43 @@
+body{
+ 
+  font-family: 'Fira Sans', Arial, sans-serif;
+  color: #141414;
+}
+
+h1, h2, h3, h4, p{
+  margin: 0;
+  
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  
+}
+
+.subtitle{
+  font-size: 9rem;
+  text-transform: uppercase;
+  width: 4ch;
+  word-break: break-all;
+}
